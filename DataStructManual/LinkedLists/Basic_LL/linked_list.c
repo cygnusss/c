@@ -4,6 +4,7 @@
 typedef struct LinkedList *node; //Define node as pointer of data type struct LinkedList
 
 node createNode(){
+    
     node temp; // declare a node
     temp = (node)malloc(sizeof(struct LinkedList)); // allocate memory using malloc()
     temp->next = NULL;// make next point to NULL
